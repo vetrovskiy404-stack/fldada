@@ -45,10 +45,6 @@ class WinLocker:
         self.root.bind('<Alt-Tab>', lambda e: None)
         self.root.bind('<Alt-F4>', lambda e: None)
         self.root.bind('<Control-Alt-Delete>', lambda e: None)
-        self.root.bind('<Super_L>', lambda e: None)
-        self.root.bind('<Super_R>', lambda e: None)
-        self.root.bind('<Super-D>', lambda e: None)
-        self.root.bind('<Control-Alt-T>', lambda e: None)
         
         # Запрещаем изменение размера
         self.root.resizable(False, False)
